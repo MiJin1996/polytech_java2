@@ -1,5 +1,4 @@
 package com.survivalcoding;
-
 import java.util.Random;
 
 public class Cleric {
