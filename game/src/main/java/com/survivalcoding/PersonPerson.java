@@ -34,7 +34,13 @@ public class PersonPerson {
 
 }
 
-class all {
+//컬렉션
+
+//2장 연습문제 1
+//1),3)은 set으로
+//2)은 list로
+
+class main {
     static void main() {
         List<PersonPerson> name = new ArrayList<>();
         name.add(new PersonPerson("홍길동", 20));
@@ -43,3 +49,4 @@ class all {
 
 
 }
+
