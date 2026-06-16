@@ -2,6 +2,8 @@ package com.survivalcoding;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class PoisonSlimeTest {
 
     @Test
@@ -9,8 +11,7 @@ class PoisonSlimeTest {
         Hero h = new Hero(100);
         PoisonSlime ps = new PoisonSlime("홍길홍길");
         ps.attack(h);
-        System.out.println("--------------------------");
-        System.out.println("남은 HP : " + h.getHp());
+        assertEquals(72, h.getHp());
         System.out.println("==========================");
     }
 }
